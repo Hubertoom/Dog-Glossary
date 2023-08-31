@@ -74,9 +74,16 @@ async function fetchImage(event) {
         }
 
         let img = document.createElement('img');
+        img.id = 'dogImage';
         img.src = data['message'];
         img.alt = 'photo of doge';
+
+        let description = document.createElement('p');
+        description.id = 'description';
+        description.textContent = data.message.split(/\//)[4];
+
         content.innerHTML = img.outerHTML;
+        content.appendChild(description);
     } catch (error) {
         content.innerHTML = `<p>${error.message}</p>`;
     }

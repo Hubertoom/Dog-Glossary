@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Underdog', cursive !important;
+    background: lightskyblue !important;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#header {
+    font-size: 5rem;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+#content {
+    margin: 1rem auto;
+}
+
+#dogImage {
+    max-height: 60vh;
+}
+
+#input-breed {
+    border: 3px solid #0d6efd;
+    border-radius: 5px;
+    height: 2.3rem;
+}
+
+ol, li, p {
+    font-size: 2rem;
+}
+
+#description {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
