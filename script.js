@@ -78,13 +78,13 @@ async function fetchImage(event) {
         img.src = data['message'];
         img.alt = 'photo of doge';
 
-        let description = document.createElement('p');
-        description.id = 'description';
-        description.textContent = data.message.split(/\//)[4].split(/-/)[0];
+         let description = document.createElement('p');
+         description.id = 'description';
+         description.textContent = data.message.split(/\//)[4].split(/-/)[0];
 
         content.innerHTML = img.outerHTML;
-        content.appendChild(description);
-        breedInput.value = description.textContent;
+       content.appendChild(description);
+       breedInput.value = description.textContent;
     } catch (error) {
         content.innerHTML = `<p>${error.message}</p>`;
     }

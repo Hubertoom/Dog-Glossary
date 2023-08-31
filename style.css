@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
 body {
     height: 100vh;
     display: flex;
@@ -6,6 +7,7 @@ body {
     font-family: 'Underdog', cursive !important;
     background: lightskyblue !important;
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@ header {
 #header {
     font-size: 5rem;
 }
+
 section {
     display: flex;
     justify-content: space-around;
@@ -45,16 +48,19 @@ ol, li, p {
     font-weight: 600;
 }
 
+img {
+    animation: appear;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
 
+}
 
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 
-
-
-
-
-
-
-
-
-
-
+}
