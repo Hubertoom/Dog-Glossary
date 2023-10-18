@@ -9,3 +9,7 @@ and a list of dog breeds using a public API. <br/>
 Practice handling APIs, HTML & JS to build a web page. Fetching data from <br/>
 an API and displaying it on a web page. Also, work with promises and handle <br/>
 different data structures.
+
+[***Try it and enjoy!***](https://hubertoom.github.io/Dog-Glossary/)
+
+## Presentation video
